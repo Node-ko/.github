@@ -23,7 +23,7 @@
 ----
 # Node.js 공식 문서 한국어 번역
 
-Node.js 공식 문서를 한국어로 번역한 저장소입니다. 최신 공식 문서를 지속적으로 번역하여 [GitBook](https://www.gitbook.com/)을 통해 퍼블리싱하고 있습니다.
+Node.js 공식 문서를 한국어로 번역한 저장소입니다. 최신 공식 문서를 지속적으로 번역하여 [GitBook](https://tastekim.gitbook.io/nodejs-ko/)을 통해 퍼블리싱하고 있습니다.
 
 ## 번역 및 퍼블리싱
 
