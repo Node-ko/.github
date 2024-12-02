@@ -57,7 +57,7 @@ Node.js 공식 문서를 한국어로 번역한 저장소입니다. 최신 공�
 
 ## 퍼블리싱된 문서
 
-한국어 번역 문서는 [GitBook에서 확인하기](https://your-gitbook-link.com)에서 볼 수 있습니다.
+한국어 번역 문서는 [GitBook에서 확인하기](https://tastekim.gitbook.io/nodejs-ko)에서 볼 수 있습니다.
 
 ## 라이선스
 
