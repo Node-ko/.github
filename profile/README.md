@@ -1,5 +1,3 @@
-# Node.js 공식 문서 한글 번역 프로젝트
-
 <h1 align="center">JavaScript 를 <a href="https://nodejs.org/en/download">어디서나</a> 실행할 수 있습니다.</h1><br>
 
 <p align="center">
@@ -23,3 +21,44 @@
 </p>
 
 ----
+# Node.js 공식 문서 한국어 번역
+
+Node.js 공식 문서를 한국어로 번역한 저장소입니다. 최신 공식 문서를 지속적으로 번역하여 [GitBook](https://www.gitbook.com/)을 통해 퍼블리싱하고 있습니다.
+
+## 번역 및 퍼블리싱
+
+- **출처**: 공식 Node.js 문서 레포지토리에서 최신 내용을 가져옵니다.
+- **번역**: 가져온 내용을 한국어로 번역합니다.
+- **퍼블리싱**: 번역된 문서를 GitBook에 업로드하여 배포합니다.
+
+## 기여자
+
+이 프로젝트는 다음의 기여자들에 의해 유지 관리되고 있습니다:
+
+[![tastekim](https://img.shields.io/badge/tastekim-ProjectOwner-blue)](https://github.com/tastekim)
+[![kyungseopk1m](https://img.shields.io/badge/kyungseopk1m-ProjectOwner-blue)](https://github.com/kyungseopk1m)
+[![OverFlowBIN](https://img.shields.io/badge/OverFlowBIN-ProjectOwner-blue)](https://github.com/OverFlowBIN)
+
+<a href="https://github.com/Node-ko/learn/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Node-ko/learn" />
+</a>
+
+## 기여 방법
+
+번역에 기여하고 싶으신 분은 다음 단계를 따라주세요:
+
+1. **저장소 포크**: 이 저장소를 포크합니다.
+2. **새 브랜치 생성**: `git checkout -b feature/번역-추가` 명령어로 새로운 브랜치를 생성합니다.
+3. **번역 작업**: 번역할 문서를 수정합니다.
+4. **커밋 및 푸시**: 변경 사항을 커밋하고 자신의 포크에 푸시합니다.
+5. **풀 리퀘스트 생성**: 원본 저장소로 풀 리퀘스트를 생성합니다.
+
+모든 기여는 환영하며, 공식 Node.js 문서의 정확하고 일관된 번역을 위해 함께 노력해요!
+
+## 퍼블리싱된 문서
+
+한국어 번역 문서는 [GitBook에서 확인하기](https://your-gitbook-link.com)에서 볼 수 있습니다.
+
+## 라이선스
+
+이 프로젝트는 [MIT 라이선스](LICENSE)를 따릅니다.
