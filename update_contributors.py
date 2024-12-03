@@ -39,7 +39,7 @@ def generate_contributors_markdown(contributors, max_contributors=100, per_row=1
     # Calculate the width percentage for each contributor
     width_percent = 100 / per_row
 
-    markdown = '''<div style="display: flex; flex-wrap: wrap; align-items: flex-start;">
+    markdown = '''<div>
         <div style="width: {width_percent}%; padding: 5px; box-sizing: border-box;">'''
     for contributor in contributors:
         markdown += f'''
