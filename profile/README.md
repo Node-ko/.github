@@ -40,7 +40,7 @@ Node.js 공식 문서를 한국어로 번역한 저장소입니다. 최신 공�
 [![OverFlowBIN](https://img.shields.io/badge/OverFlowBIN-ProjectOwner-blue)](https://github.com/OverFlowBIN)
 
 <div style="display: flex; flex-wrap: wrap; align-items: flex-start;">
-        <div style="width: {width_percent}%; padding: 5px; box-sizing: border-box;">
+        <div style="padding: 5px; box-sizing: border-box;">
         <a href="https://github.com/tastekim" target="_blank">
           <img src="https://avatars.githubusercontent.com/u/112174727?v=4" alt="tastekim" style="vertical-align: middle; width: 64; height: 64px; border-radius: 50%"/>
         </a>
