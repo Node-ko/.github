@@ -44,11 +44,9 @@ Node.js 공식 문서를 한국어로 번역한 저장소입니다. 최신 공�
         <a href="https://github.com/tastekim" target="_blank">
           <img src="https://avatars.githubusercontent.com/u/112174727?v=4" alt="tastekim" style="vertical-align: middle; width: 64; height: 64px; border-radius: 50%"/>
         </a>
-        
         <a href="https://github.com/kyungseopk1m" target="_blank">
           <img src="https://avatars.githubusercontent.com/u/101553623?v=4" alt="kyungseopk1m" style="vertical-align: middle; width: 64; height: 64px; border-radius: 50%"/>
-        </a>
-        </div>
+        </a></div>
     </div>
 
 ## 기여 방법
