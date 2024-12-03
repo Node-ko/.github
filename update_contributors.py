@@ -39,10 +39,8 @@ def generate_contributors_markdown(contributors, max_contributors=100, per_row=1
     # Calculate the width percentage for each contributor
     width_percent = 100 / per_row
 
-    markdown = f'''
-    <div style="display: flex; flex-wrap: wrap; align-items: flex-start;">
-        <div style="width: {width_percent}%; padding: 5px; box-sizing: border-box;">
-    '''
+    markdown = '''<div style="display: flex; flex-wrap: wrap; align-items: flex-start;">
+        <div style="width: {width_percent}%; padding: 5px; box-sizing: border-box;">'''
     for contributor in contributors:
         markdown += f'''
         <a href="{contributor["html_url"]}" target="_blank">
@@ -50,10 +48,8 @@ def generate_contributors_markdown(contributors, max_contributors=100, per_row=1
         </a>
         '''
 
-    markdown += f'''
-        </div>
-    </div>
-    '''
+    markdown += '''</div>
+    </div>'''
     return markdown
 
 def update_readme(contributors_markdown):
