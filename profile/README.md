@@ -42,15 +42,15 @@ Node.js 공식 문서를 한국어로 번역한 저장소입니다. 최신 공�
 
 <div style="display: flex; flex-wrap: wrap; align-items: flex-start;">
 
-  <div style="width: 8.333333333333334%; padding: 5px;">
+  <div style="width: 8.333333333333334%; padding: 5px; box-sizing: border-box;">
     <a href="https://github.com/tastekim" target="_blank">
-      <img src="https://avatars.githubusercontent.com/u/112174727?v=4" alt="tastekim" style="width: 100%; height: auto; border-radius: 50%;"/>
+      <img src="https://avatars.githubusercontent.com/u/112174727?v=4" alt="tastekim" style="width: 64px; height: 64px; border-radius: 50%; object-fit: cover;"/>
     </a>
   </div>
 
-  <div style="width: 8.333333333333334%; padding: 5px;">
+  <div style="width: 8.333333333333334%; padding: 5px; box-sizing: border-box;">
     <a href="https://github.com/kyungseopk1m" target="_blank">
-      <img src="https://avatars.githubusercontent.com/u/101553623?v=4" alt="kyungseopk1m" style="width: 100%; height: auto; border-radius: 50%;"/>
+      <img src="https://avatars.githubusercontent.com/u/101553623?v=4" alt="kyungseopk1m" style="width: 64px; height: 64px; border-radius: 50%; object-fit: cover;"/>
     </a>
   </div>
 
