@@ -2,7 +2,7 @@ name: Update Contributors in Profile README
 
 on:
   schedule:
-    - cron: '0 0 * * 7'       # 매주 일요일 UTC 기준으로 실행
+    - cron: '0 0 * * *'       # 매일 UTC 기준으로 실행
   workflow_dispatch:          # 수동 실행 가능
 
 jobs:
