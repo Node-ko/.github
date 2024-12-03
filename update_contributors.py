@@ -12,8 +12,8 @@ API_URL = f'https://api.github.com/repos/{ORGANIZATION}/{REPOSITORY}/contributor
 PLACEHOLDER = '<!-- CONTRIBUTOR PLACEHOLDER -->'
 
 # README 파일 경로
-README_PATH = '/home/runner/work/.github/README.md'
-NEW_README_PATH = '/home/runner/work/.github/profile/README.md'
+README_PATH = './README.md'
+NEW_README_PATH = './profile/README.md'
 
 # GitHub Personal Access Token (필요 시)
 GITHUB_TOKEN = os.getenv('GITHUB_TOKEN')  # 환경 변수에서 토큰을 읽어옵니다.
