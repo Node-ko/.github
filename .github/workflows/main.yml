@@ -1,0 +1,38 @@
+name: Update Contributors in Profile README
+
+on:
+  schedule:
+    - cron: '0 0 * * 7'       # 매주 일요일 UTC 기준으로 실행
+  workflow_dispatch:          # 수동 실행 가능
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests
+
+      - name: Run update_contributors script
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python update_contributors.py
+
+      - name: Commit changes
+        run: |
+          git config --local user.name "GitHub Actions"
+          git config --local user.email "actions@github.com"
+          git add .github/profile/README.md
+          git commit -m "Update contributors in profile README" || echo "No changes to commit"
+          git push
