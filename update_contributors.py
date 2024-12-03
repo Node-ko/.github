@@ -44,7 +44,7 @@ def generate_contributors_markdown(contributors, max_contributors=100, per_row=1
     for contributor in contributors:
         markdown += f'''
         <a href="{contributor["html_url"]}" target="_blank">
-          <img src="{contributor["avatar_url"]}" alt="{contributor["login"]}" style="vertical-align: middle; width: 64px; height: 64px; border-radius: 50%"/>
+          <img src="{contributor["avatar_url"]}" alt="{contributor["login"]}" style="vertical-align: middle; width: 64px; height: 64px; max-width: 64px; max-height: 64px; border-radius: 50%"/>
         </a>'''
 
     markdown += '''</div>
