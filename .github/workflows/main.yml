@@ -27,7 +27,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          echo ls
+          ls -al
           python update_contributors.py
 
       - name: Commit changes
