@@ -39,9 +39,15 @@ Node.js 공식 문서를 한국어로 번역한 저장소입니다. 최신 공�
 [![kyungseopk1m](https://img.shields.io/badge/kyungseopk1m-ProjectOwner-blue)](https://github.com/kyungseopk1m)
 [![OverFlowBIN](https://img.shields.io/badge/OverFlowBIN-ProjectOwner-blue)](https://github.com/OverFlowBIN)
 
-<a href="https://github.com/Node-ko/learn/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=Node-ko/learn" />
-</a>
+<div align="center">
+  <a href="https://github.com/tastekim" target="_blank">
+    <img src="https://avatars.githubusercontent.com/u/112174727?v=4" width="80" height="80" style="border-radius:50%; margin:5px;" alt="tastekim"/>
+  </a>
+  <a href="https://github.com/kyungseopk1m" target="_blank">
+    <img src="https://avatars.githubusercontent.com/u/101553623?v=4" width="80" height="80" style="border-radius:50%; margin:5px;" alt="kyungseopk1m"/>
+  </a>
+</div>
+
 
 ## 기여 방법
 
