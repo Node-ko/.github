@@ -29,16 +29,30 @@ def fetch_contributors():
     response.raise_for_status()
     return response.json()
 
-def generate_contributors_markdown(contributors, top_n=None):
-    if top_n:
-        contributors = contributors[:top_n]
+def generate_contributors_markdown(contributors, max_contributors=100, per_row=12):
+    # 최대 기여자 수 제한
+    contributors = contributors[:max_contributors]
     
-    markdown = '<div align="center">\n'
+    # 한 줄에 표시할 기여자 수
+    per_row = per_row
+
+    # Calculate the width percentage for each contributor
+    width_percent = 100 / per_row
+
+    markdown = '''
+<div style="display: flex; flex-wrap: wrap; align-items: flex-start;">
+'''
     for contributor in contributors:
-        markdown += f'  <a href="{contributor["html_url"]}" target="_blank">\n'
-        markdown += f'    <img src="{contributor["avatar_url"]}" width="80" height="80" style="border-radius:50%; margin:5px;" alt="{contributor["login"]}"/>\n'
-        markdown += '  </a>\n'
-    markdown += '</div>\n'
+        markdown += f'''
+  <div style="width: {width_percent}%; padding: 5px;">
+    <a href="{contributor["html_url"]}" target="_blank">
+      <img src="{contributor["avatar_url"]}" alt="{contributor["login"]}" style="width: 100%; height: auto; border-radius: 50%;"/>
+    </a>
+  </div>
+'''
+    markdown += '''
+</div>
+'''
     return markdown
 
 def update_readme(contributors_markdown):
