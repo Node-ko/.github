@@ -75,8 +75,8 @@ def main():
         print("No contributors found.")
         return
 
-    # 원하는 상위 N명만 표시하려면 top_n 설정
-    contributors_markdown = generate_contributors_markdown(contributors, top_n=None)
+    # 최대 100명, 한 줄에 12명씩 표시
+    contributors_markdown = generate_contributors_markdown(contributors, max_contributors=100, per_row=12)
     update_readme(contributors_markdown)
     print("README.md has been updated with the latest contributors.")
 
