@@ -78,4 +78,4 @@ Node.js 공식 문서를 한국어로 번역한 저장소입니다. 최신 공�
 
 ## 라이선스
 
-이 프로젝트는 [MIT 라이선스](LICENSE)를 따릅니다.
+이 프로젝트는 [MIT 라이선스](https://github.com/Node-ko/.github/blob/main/LICENSE)를 따릅니다.
