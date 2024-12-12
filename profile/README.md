@@ -39,18 +39,11 @@ Node.js 공식 문서를 한국어로 번역한 저장소입니다. 최신 공�
 [![kyungseopk1m](https://img.shields.io/badge/kyungseopk1m-ProjectOwner-blue)](https://github.com/kyungseopk1m)
 [![OverFlowBIN](https://img.shields.io/badge/OverFlowBIN-ProjectOwner-blue)](https://github.com/OverFlowBIN)
 
-<div>
-        <div style="width: {width_percent}%; padding: 5px; box-sizing: border-box;">
-        <a href="https://github.com/tastekim" target="_blank">
-          <img src="https://avatars.githubusercontent.com/u/112174727?v=4" alt="tastekim" style="vertical-align: middle; width: 64px; height: 64px; max-width: 64px; max-height: 64px; border-radius: 50%"/>
-        </a>
-        <a href="https://github.com/kyungseopk1m" target="_blank">
-          <img src="https://avatars.githubusercontent.com/u/101553623?v=4" alt="kyungseopk1m" style="vertical-align: middle; width: 64px; height: 64px; max-width: 64px; max-height: 64px; border-radius: 50%"/>
-        </a>
-        <a href="https://github.com/OverFlowBIN" target="_blank">
-          <img src="https://avatars.githubusercontent.com/u/87470206?v=4" alt="OverFlowBIN" style="vertical-align: middle; width: 64px; height: 64px; max-width: 64px; max-height: 64px; border-radius: 50%"/>
-        </a></div>
-    </div>
+
+    <a href="https://github.com/Node-ko/learn/graphs/contributors">
+      <img src="https://contrib.rocks/image?repo=Node-ko/learn" />
+    </a>
+    
 
 ## 기여 방법
 
@@ -78,4 +71,4 @@ Node.js 공식 문서를 한국어로 번역한 저장소입니다. 최신 공�
 
 ## 라이선스
 
-이 프로젝트는 [MIT 라이선스](https://github.com/Node-ko/.github/blob/main/LICENSE)를 따릅니다.
+이 프로젝트는 [MIT 라이선스](LICENSE)를 따릅니다.
