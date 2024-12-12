@@ -40,9 +40,9 @@ Node.js 공식 문서를 한국어로 번역한 저장소입니다. 최신 공�
 [![OverFlowBIN](https://img.shields.io/badge/OverFlowBIN-ProjectOwner-blue)](https://github.com/OverFlowBIN)
 
 
-    <a href="https://github.com/Node-ko/learn/graphs/contributors">
-      <img src="https://contrib.rocks/image?repo=Node-ko/learn" />
-    </a>
+<a href="https://github.com/Node-ko/learn/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Node-ko/learn" />
+</a>
     
 
 ## 기여 방법
