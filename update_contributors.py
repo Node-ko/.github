@@ -51,9 +51,9 @@ def main():
 
     # 최대 100명, 한 줄에 12명씩 표시
     contributors_markdown = '''
-    <a href="https://github.com/Node-ko/learn/graphs/contributors">
-      <img src="https://contrib.rocks/image?repo=Node-ko/learn" />
-    </a>
+<a href="https://github.com/Node-ko/learn/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Node-ko/learn" />
+</a>
     '''
     update_readme(contributors_markdown)
     print("README.md has been updated with the latest contributors.")
